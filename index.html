@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="norm.css">
     <link rel="stylesheet" href="style.css">
+
     <title>Сайт Google</title>
 </head>
 
@@ -18,7 +20,7 @@
         </div>
     </header>
 
-    <main class="main">
+    <!-- <main class="main">
         <section class="apple-watch">
             <div class="apple-watch__logo"></div>
             <span class="apple-watch__info"> Thinstant classic. </span>
@@ -47,7 +49,7 @@
                         Iconic. Now supersonic. Available with Active Noise Cancellation.</span>
                 </div>
                 <div class="buttons button-airpods">
-                    <button class="learn">Learn more</button>
+                    <button id="button" class="learn">Learn more</button>
                     <button class="buy">Buy</button>
                 </div>
             </div>
@@ -58,16 +60,72 @@
                     <span> Hearing Aid and Hearing Test features coming with a free software update this fall.</span>
                 </div>
                 <div class="buttons button-airpods">
-                    <button class="learn">Learn more</button>
+                    <button id="button" class="learn">Learn more</button>
                     <button class="buy">Buy</button>
                 </div>
+                <a href="www.yandex.ru" class="href">Ссылка</a>
+                <img class="images" src="./images/hero_logo_apple_watch_series_10__dla4dkv1wfue_largetall.png">
             </div>
         </section>
-    </main>
+        <section class="modal-window display-none">
+            <div class="modal-window__inputs">
+                <p> ФИО </p>
+                <input class="modal-window__input" type="text">
+                <p> Email </p>
+                <input class="modal-window__input" type="text">
+                <p> Дата рождения </p>
+                <input class="modal-window__input" type="text">
+            </div>
+            <div class="modal-window__buttons">
+                <button> Регистрация </button>
+                <button> Закрыть </button>
+            </div>
+        </section>
+    </main> -->
 
     <footer>
 
+        <li class="todo-item">
+            <span> Выгулить собаку </span>
+            <button class="todo-item-button">Удалить</button>
+        </li>
+
+        <input type="text" class="input-text">
+        <button class="button-add"> Добавить </button>
+        <button class="button-delete"> Удалить </button>
+        <ul class="todo-list"> </ul>
+
+        <div class="user-online">
+        </div>
+
+        <div class="task-manager">
+        </div>
+
     </footer>
+
+    <template id="user">
+        <div class="user">
+            <img class="user__avatar" alt="avatar">
+            <p class="user__name"></p>
+        </div>
+    </template>
+
+    <main>
+        <section></section>
+        <section></section>
+        <section></section>
+        <section></section>
+    </main>
+
+    <template id="template-list">
+        <div class="template-container">
+            <input type="text" class="template-input-text">
+            <button class="template-button-add"></button>
+            <button class="template-button-delete"></button>
+            <li class="template-li-item"></li>
+        </div>
+    </template>
+
     <script src="script.js"> </script>
 </body>
 

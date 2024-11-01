@@ -58,9 +58,17 @@ body {
     border: 0px;
 }
 
+.buttons-info__btn_yellow {
+    background: yellow;
+}
+
 .buttons-info__btn_solid:hover {
     background: red;
     color: black;
+}
+
+.display-none {
+    display: none;
 }
 
 .buttons-info__btn_trans {
@@ -130,6 +138,33 @@ body {
  } 
  
 
+ .modal-window {
+    width: 350px;
+    height: 300px;
+    border: 2px solid black;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    background: white;
+    padding-top: 25px;
+ }
+
+ .modal-window__inputs,
+ .modal-window__buttons {
+    width: 200px;
+    margin: 0 auto;
+ }
+
+ .modal-window__input {
+    margin-bottom: 10px;
+ }
+ 
+
+ p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+ }
+
 @media screen and (min-width: 480px) and (max-width: 767px) {
     .people {
         display: block;
@@ -158,4 +193,10 @@ body {
 /* Phone */
 @media screen and (max-width: 479px) {
 
+}
+
+
+.title-section {
+    font-size: 20px;
+    color: red;
 }
